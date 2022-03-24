@@ -18,6 +18,9 @@
 
   <ItemGroup>
     <None Remove="client\src\app\services\store.service.ts" />
+    <None Remove="client\src\app\shared\Order.ts" />
+    <None Remove="client\src\app\shared\Product.ts" />
+    <None Remove="client\src\app\views\cartView.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,12 +42,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="client\src\app\shared\" />
+    <Folder Include="client\dist\out-tsc\" />
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="client\src\app\services\store.service.ts" />
+    <TypeScriptCompile Include="client\src\app\shared\Order.ts" />
+    <TypeScriptCompile Include="client\src\app\shared\Product.ts" />
+    <TypeScriptCompile Include="client\src\app\views\cartView.component.ts" />
     <TypeScriptCompile Include="wwwroot\ts\Main.ts" />
     <TypeScriptCompile Include="wwwroot\ts\shopper.ts" />
   </ItemGroup>

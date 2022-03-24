@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\A218633\Source\repos\Dutchtreat\client\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\jp\source\repos\jpayne09\DutchTreatApp\client\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
