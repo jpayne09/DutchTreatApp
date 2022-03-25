@@ -12,8 +12,8 @@
 
 export class Order {
         orderId: number;
-        orderDate: Date = new Date();
-        orderNumber: string;
+    orderDate: Date = new Date();
+    orderNumber: string = Math.random().toString(36).substr(2,5);
         items: OrderItem[] = [];
 
     get subtotal(): number {

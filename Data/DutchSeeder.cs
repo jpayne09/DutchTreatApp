@@ -63,14 +63,14 @@ namespace Dutchtreat.Data
                 {
                     order.User = user;
                     order.Items = new List<OrderItem>()
-          {
-            new OrderItem()
-            {
-              Product = products.First(),
-              Quantity = 5,
-              UnitPrice = products.First().Price
-            }
-          };
+                    {
+                        new OrderItem()
+                        {
+                          Product = products.First(),
+                          Quantity = 5,
+                          UnitPrice = products.First().Price
+                        }
+                    };
                 }
 
                 _ctx.SaveChanges();

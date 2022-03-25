@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="client\src\app\pages\loginPage.component.ts" />
+    <None Remove="client\src\app\pages\shopPage.component.ts" />
+    <None Remove="client\src\app\router\index.ts" />
+    <None Remove="client\src\app\services\authActivator.service.ts" />
     <None Remove="client\src\app\services\store.service.ts" />
     <None Remove="client\src\app\shared\Order.ts" />
     <None Remove="client\src\app\shared\Product.ts" />
@@ -47,6 +51,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="client\src\app\pages\loginPage.component.ts" />
+    <TypeScriptCompile Include="client\src\app\pages\shopPage.component.ts" />
+    <TypeScriptCompile Include="client\src\app\router\index.ts" />
+    <TypeScriptCompile Include="client\src\app\services\authActivator.service.ts" />
     <TypeScriptCompile Include="client\src\app\services\store.service.ts" />
     <TypeScriptCompile Include="client\src\app\shared\Order.ts" />
     <TypeScriptCompile Include="client\src\app\shared\Product.ts" />

@@ -1,5 +1,6 @@
 ﻿import { Component, OnInit } from "@angular/core";
-import { Store } from '../services/store.service';
+import Store from "../store";
+
 
 @Component({
   selector: "product-list",
